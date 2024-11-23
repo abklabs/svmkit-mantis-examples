@@ -1,0 +1,23 @@
+{
+  "name": "svmkit-mantis-network",
+  "private": true,
+  "packageManager": "npm@10.7.0",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "up": "turbo up",
+    "refresh": "turbo refresh",
+    "preview": "turbo preview",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.3.2",
+    "turbo": "latest",
+    "typescript": "^5.4.5",
+    "typescript-language-server": "^4.3.3"
+  },
+  "engines": {
+    "node": "19.8.1"
+  }
+}

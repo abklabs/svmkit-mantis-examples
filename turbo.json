@@ -1,0 +1,17 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "refresh": {
+      "dependsOn": ["^refresh"]
+    },
+    "up": {
+      "dependsOn": ["^up"]
+    },
+    "preview": {
+      "dependsOn": ["^preview"]
+    },
+    "lint": {
+      "dependsOn": ["^lint"]
+    }
+  }
+}
